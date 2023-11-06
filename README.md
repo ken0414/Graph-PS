@@ -15,19 +15,17 @@ To run this program, you may need:
   ```
 2. Put your data into the appropriate folder:
   ```
-     [network embedding feature(node2vec)] --> ./data/n2v
      [protein structure feature] --> ./data/graph    
      [protein node feature(PSSM)] --> ./data/pssm
   ```
 3. Activate your enviroment and run main.py:
   ```
-     $ python main --mode cv --n2v example_n2v --run 10
+     $ python main --mode cv --run 10
   ```
   Within this line of code, you can choose between cross-validation mode or independent test set mode by modifying the value after mode, n2v to change the file used, and run to select the number of repetitive runs.
 | option  | value |
 | ------------- | ------------- |
 | `mode` | `cv`or`out` |
-| `n2v` | filename of node2vec |
 | `run` | int value for run times |
 4. Get result:
   For each fold in a single cv, you can get the best epoch of the train in `train_result.txt`.
