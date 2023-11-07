@@ -1,7 +1,5 @@
 # Graph-PS
-Sequence-Based Prediction of Phase-Separated Protein Classification by Graph Convolutional Network
-## Introduction
-The latest research findings have demonstrated that phase separation reveals the mechanism of membrane-less organelle formation, and an increasing number of proteins have been confirmed to possess this characteristic. Investigating phase-separated proteins holds significant importance in understanding related diseases. Numerous machine learning methods have emerged for classifying phase-separated proteins. This study introduces Graph-PS, a machine learning model that uses graph convolutional neural networks and multi-head attention modules. It classifies proteins by analyzing amino acid and structural features extracted from protein sequences. Our model addresses the issue of other models being biased towards predicting a specific class of phase-separated proteins and demonstrates the ability to accurately predict each class of phase-separated proteins.
+Prediction of Phase-Separating Protein Classifier by GCN
 ## Requirements
 To run this program, you may need:
  * Python 3.6 or later
